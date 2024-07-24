@@ -1,11 +1,13 @@
 import mysql.connector
-
-mydb = mysql.connector.connect(
+try:
+    mydb = mysql.connector.connect(
     host = "localhost",
     user = "root",
     passwd = "AhmedAmin@82253",
     database = "",
-)
+    )
+except mysql.connector.Error as e:
+    print(f"Error: {e}")
 
 mycursor = mydb.cursor()
 
