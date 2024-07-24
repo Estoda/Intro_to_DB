@@ -10,8 +10,7 @@ CREATE TABLE
         FOREIGN KEY (author_id) REFERENCES Authors(author_id)
     );
 
-CREATE TABLE
-    Authors (
+CREATE TABLE Authors (
         author_id INT PRIMARY KEY,
         author_name VARCHAR(215)
     );
