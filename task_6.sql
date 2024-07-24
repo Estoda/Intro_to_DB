@@ -17,6 +17,6 @@ VALUES
     (
         4,
         'Nehemial Kamolu',
-        'nkamolu@sandteck.com',
+        'nkamolu@sandtech.com',
         '126 Happiness  Ave.'
     );
