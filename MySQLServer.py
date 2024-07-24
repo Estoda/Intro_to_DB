@@ -4,7 +4,7 @@ try:
     host = "localhost",
     user = "root",
     passwd = "AhmedAmin@82253",
-    database = "",
+    database = "alx_book_store",
     )
 except mysql.connector.Error as e:
     print(f"Error: {e}")
