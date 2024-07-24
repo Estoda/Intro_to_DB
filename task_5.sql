@@ -6,5 +6,5 @@ VALUES
         1,
         'Cole Baidoo',
         'cbaidoo@sandtech.com',
-        '1234 Happiness Ave.'
+        '123 Happiness Ave.'
     )
